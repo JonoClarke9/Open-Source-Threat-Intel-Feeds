@@ -27,7 +27,7 @@ Github;APT Notes;SHA1;https://raw.githubusercontent.com/aptnotes/data/master/APT
 Github;APT Notes;URL;https://raw.githubusercontent.com/aptnotes/data/master/APTnotes.csv;Active
 Binarydefense;Binary Defense Systems Artillery Threat Intelligence Feed and Banlist Feed;IP;https://www.binarydefense.com/banlist.txt;Active
 Github;Fox-IT Cobalt Strike Servers;IP;https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv;Active
-CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG (CSV);CVEID;https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv;Offline
+CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG (CSV);CVEID;https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv;Active
 MISP Feed CERT-FR;MISP Feed CERT-FR;MD5;https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv;Active
 Carbon Black;Cobalt Strike Lucky Mouse;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv;Active
 Carbon Black;Cobalt Strike Pyxie;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv;Active
@@ -85,7 +85,7 @@ Botvrij.eu;IOC List MD5;MD5;https://www.botvrij.eu/data/ioclist.md5;Active
 Botvrij.eu;IOC List SHA1;SHA1;https://www.botvrij.eu/data/ioclist.md5;Active
 Botvrij.eu;IOC List SHA256;SHA256;https://www.botvrij.eu/data/ioclist.sha256;Active
 Botvrij.eu;OSINT MD5 Hashes;MD5;https://www.botvrij.eu/data/feed-osint/hashes.csv;Active
-PhishTank;Phishing URLs;URL;http://data.phishtank.com/data/online-valid.json;Offline
+PhishTank;Phishing URLs;URL;http://data.phishtank.com/data/online-valid.json;Active
 Cert.PL;Recent Phishing Domains;URL;https://hole.cert.pl/domains/domains.csv;Active
 AlienVault;IP Reputation Generic;IP;https://reputation.alienvault.com/reputation.generic;Active
 GreenSnow;IP Blocklist;IP;https://blocklist.greensnow.co/greensnow.txt;Active
@@ -123,7 +123,7 @@ DigitalSide Threat-Intel;DigitalSide Threat-Intel DNS last 7 days;DNS;https://os
 virtualfabric;Domains (pihole, diversion, pfblockerng, personalblocklist, personaldnsfilter) via CDN;DNS;https://nocdn.nrd-list.com/0/nrd-list-32-days.txt;Offline
 virtualfabric;Domains (pihole, diversion, pfblockerng, personalblocklist, personaldnsfilter) direct;DNS;https://nocdn.threat-list.com/0/domains.txt;Offline
 virtualfabric;Adblock Plus Filter List (adguard. adguardhome, ublockorigin, adblockplus, adnauseum, adblock, opera, vivaldi);DNS;https://nocdn.threat-list.com/1/domains.txt;Offline
-CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG (JSON);CVEID;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json;Offline
+CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG (JSON);CVEID;https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json;Active
 threatview.io;OSINT Threat Feed Malicious indicators of compromise gathered from OSINT Source - Twitter and Pastebin;IP;https://threatview.io/Downloads/Experimental-IOC-Tweets.txt;Active
 threatview.io;C2 Hunt Feed Infrastructure hosting Command & Control Servers found during Proactive Hunt by Threatview.io;IP;https://threatview.io/Downloads/High-Confidence-CobaltStrike-C2%20-Feeds.txt;Active
 threatview.io;C2 Hunt Feed Infrastructure hosting Command & Control Servers found during Proactive Hunt by Threatview.io;DNS;https://threatview.io/Downloads/High-Confidence-CobaltStrike-C2%20-Feeds.txt;Active
