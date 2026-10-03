@@ -29,8 +29,8 @@ Binarydefense;Binary Defense Systems Artillery Threat Intelligence Feed and Banl
 Github;Fox-IT Cobalt Strike Servers;IP;https://raw.githubusercontent.com/fox-it/cobaltstrike-extraneous-space/master/cobaltstrike-servers.csv;Active
 CISA;KNOWN EXPLOITED VULNERABILITIES CATALOG (CSV);CVEID;https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv;Active
 MISP Feed CERT-FR;MISP Feed CERT-FR;MD5;https://misp.cert.ssi.gouv.fr/feed-misp/hashes.csv;Active
-Carbon Black;Cobalt Strike Lucky Mouse;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv;Offline
-Carbon Black;Cobalt Strike Pyxie;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv;Offline
+Carbon Black;Cobalt Strike Lucky Mouse;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_luckymouse_ta428.csv;Active
+Carbon Black;Cobalt Strike Pyxie;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/cobaltstrike/actor-specific/cobaltstrike_pyxie.csv;Active
 Carbon Black;ShadowPad IOC;IP;https://github.com/carbonblack/active_c2_ioc_public/blob/main/shadowpad/shadowpad_202209.tsv;Offline
 mrlooquer;Mr. Looquer IOC Feed;IP;https://iocfeed.mrlooquer.com/feed.csv;Offline
 mrlooquer;Mr. Looquer IOC Feed;DNS;https://iocfeed.mrlooquer.com/feed.csv;Offline
@@ -43,10 +43,10 @@ Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent
 Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt;Active
 Ipsum; Malicious and/or suspicious ip adrresses;IP;https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt;Active
 eCrimeLabs;Vulnerabilities with Metasploit exploit available;CVEID;https://feeds.ecrimelabs.net/data/metasploit-cve;Active
-drb-ra;IPC2s-30day;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/IPC2s-30day.csv;Offline
-drb-ra;domainC2swithURLwithIP-30day-filter-abused;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv;Offline
-drb-ra;domainC2swithURLwithIP-30day-filter-abused;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv;Offline
-drb-ra;domainC2s;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2s.csv;Offline
+drb-ra;IPC2s-30day;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/IPC2s-30day.csv;Active
+drb-ra;domainC2swithURLwithIP-30day-filter-abused;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv;Active
+drb-ra;domainC2swithURLwithIP-30day-filter-abused;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2swithURLwithIP-30day-filter-abused.csv;Active
+drb-ra;domainC2s;URL;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/domainC2s.csv;Active
 montysecurity;Ratel C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Brute%20Ratel%20C4%20IPs.txt;Offline
 montysecurity;Cobalt Strike;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Brute%20Ratel%20C4%20IPs.txt;Offline
 montysecurity;Sliver C2;IP;https://github.com/montysecurity/C2-Tracker/blob/main/data/Sliver%20C2%20IPs.txt;Offline
@@ -95,7 +95,7 @@ CyberCure;BLocked IP Feed;IP;https://api.cybercure.ai/feed/get_ips?type=csv;Offl
 fireho;level1;IP;https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset;Active
 ThreatMon;The Daily C2 Feed is a community contribution provided by ThreatMon Cyber Threat Intelligence under the name TM Threat Intelligence, which provides users with command-and-control (C2) servers that malware uses to exfiltrate data from the computer infected with the malware, limited for everyone's safety. Note that the file changes every day.;URL;https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds;Active
 NIST;National Vulnerability Database;CVEID;https://services.nvd.nist.gov/rest/json/cves/2.0;Active
-Ellio;Firewall Threat List;IP;https://cdn.ellio.tech/community-feed;Active
+Ellio;Firewall Threat List;IP;https://cdn.ellio.tech/community-feed;Offline
 NetCraft;Cybercrime on Top Level Domains;DNS;https://trends.netcraft.com/cybercrime/tlds;Active
 montysecurity;BurpSuite IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/BurpSuite%20IPs.txt;Offline
 montysecurity;Deimos IPs;IP;https://raw.githubusercontent.com/montysecurity/C2-Tracker/main/data/Deimos%20C2%20IPs.txt;Offline
@@ -116,7 +116,7 @@ urlabuse;Phishing URL feed;URL;https://urlabuse.com/public/data/phishing_url.txt
 urlabuse;Hacked URL feed;URL;https://urlabuse.com/public/data/hacked_url.txt;Offline
 urlabuse;Malware Domain Feed APK;URL;https://urlabuse.com/public/data/malware_url.txt;Offline
 tsirolnik;Spam Domains;DNS;https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt;Active
-drb-ra;Unverified C2 IPs;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/unverified/IPC2s.csv;Offline
+drb-ra;Unverified C2 IPs;IP;https://github.com/drb-ra/C2IntelFeeds/blob/master/feeds/unverified/IPC2s.csv;Active
 DigitalSide Threat-Intel;DigitalSide Threat-Intel URLs last 7 days;URL;https://osint.digitalside.it/Threat-Intel/lists/latesturls.txt;Offline
 DigitalSide Threat-Intel;DigitalSide Threat-Intel IPs last 7 days;IP;https://osint.digitalside.it/Threat-Intel/lists/latesturls.txt;Offline
 DigitalSide Threat-Intel;DigitalSide Threat-Intel DNS last 7 days;DNS;https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt;Offline
@@ -136,10 +136,10 @@ threatview.io;SHA File Hash Blocklist SHA hashes of files known or linked with m
 ransomware.live;Returns all victims mentioned on ransomware leaked sites;RANSOMWARELEAK;https://api.ransomware.live/allcyberattacks;Active
 Abuse.ch;JA3 Fingerprints;JA3;https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv;Active
 cydave;List of observed SSH authentication attempts, last 24 hours;IP;https://blocklists.0dave.ch/ssh.txt;Offline
-X4BNet;VPN IPs;IP;https://github.com/X4BNet/lists_vpn/blob/main/output/vpn/ipv4.txt;Offline
-mthcht;Suspicious Named Pipes;NamePipe;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Offline
-mthcht;Nord VPN IP List;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Offline
-mthcht;Proton VPN IP List;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Offline
+X4BNet;VPN IPs;IP;https://github.com/X4BNet/lists_vpn/blob/main/output/vpn/ipv4.txt;Active
+mthcht;Suspicious Named Pipes;NamePipe;https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv;Active
+mthcht;Nord VPN IP List;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv;Active
+mthcht;Proton VPN IP List;IP;https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv;Active
 Daniel Austin MBCS;TOR Exit Nodes;IP;https://www.dan.me.uk/torlist/?exit;Active
 Daniel Austin MBCS;TOR All Nodes;IP;https://www.dan.me.uk/torlist/?full;Active
 Spamhaus Project;Don't Route Or Peer Lists (DROP);IP;https://www.spamhaus.org/drop/drop_v4.json;Active
